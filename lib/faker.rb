@@ -164,6 +164,7 @@ require 'faker/number'
 require 'faker/bitcoin'
 require 'faker/avatar'
 require 'faker/car'
+require 'faker/location'
 
 require 'extensions/array'
 require 'extensions/symbol'
