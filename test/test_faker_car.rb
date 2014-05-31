@@ -6,8 +6,8 @@ class TestFakerCar < Test::Unit::TestCase
     @tester = Faker::Car
   end
 
-  def test_resigration_number_malaysia
-    assert @tester.registration_number_malaysia.match(/[A-Z]{3} [0-9]{4}/)
+  def test_reg_number_mys
+    assert @tester.reg_number_mys.match(/[A-Z]{3} [0-9]{4}/)
   end
 
 end
