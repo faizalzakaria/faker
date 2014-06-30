@@ -10,4 +10,8 @@ class TestFakerCar < Test::Unit::TestCase
     assert @tester.reg_number_mys.match(/[A-Z]{3} [0-9]{4}/)
   end
 
+  def test_brand
+    assert @tester.brand.match(/[toyota
+  end
+
 end
